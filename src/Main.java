@@ -94,5 +94,8 @@ public class Main {
         // Общий синтаксиc: variableName.methodName(....)
         boolean isStringEqualsToAbc = string.equals("abc");
         boolean isStringEmpty = string.isEmpty();
+
+
+        ///
     }
 }
