@@ -10,7 +10,7 @@ public class Task3 {
         int a = -5;
         int b = 10;
         int c = 28;
-        int countPositive = ((Math.abs(a)/a + 1)/2) + ((Math.abs(b)/b + 1)/2) + ((Math.abs(c)/c + 1)/2);
+        int countPositive = ((Math.abs(a) / a + 1) / 2) + ((Math.abs(b) / b + 1) / 2) + ((Math.abs(c) / c + 1) / 2);
 
         System.out.println("Количество положительных чисел в исходном наборе: " + countPositive);
     }
