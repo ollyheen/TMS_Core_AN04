@@ -2,8 +2,13 @@ package Homework.Lesson4;
 
 public class Engine {
 
-    private boolean isEngineStart = false;
-    private String engineType = "";
+    public Engine() {
+        this.isEngineStart = false;
+        this.engineType = "";
+    }
+
+    private boolean isEngineStart;
+    private String engineType;
 
     public Boolean getIsEngineStart () {
         return isEngineStart;

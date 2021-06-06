@@ -3,7 +3,7 @@ package Homework.Lesson4;
 public class Car {
 
     private Integer carDistance;
-    private Engine engine;
+    private final Engine engine;
     private PetrolTank tank;
     private String carBrand;
     private Integer year;
@@ -50,7 +50,7 @@ public class Car {
 
 
     public void carTurnOn () {
-        if (tank.fuelAvailable() == true) {
+        if (tank.fuelAvailable()) {
             System.out.println("Fuel available...");
             engine.startEngine();
         } else {
@@ -63,7 +63,7 @@ public class Car {
     }
 
     public void carRun () {
-        if (engine.getIsEngineStart() == true) {
+        if (engine.getIsEngineStart()) {
             System.out.println("Car is running...");
             carDistance = carDistance + 100;
         } else {
